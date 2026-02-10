@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { sql } from "@vercel/postgres";
 
 // GET - Fetch all profiles (public endpoint for client-side use)
 export const runtime = "nodejs";
@@ -24,3 +25,12 @@ export async function GET() {
   }
 }
 
+export async function GET() {
+  await sql`
+    INSERT INTO profiles (name)
+    VALUES ('bran chembah'), ('felix gabriel')
+    ON CONFLICT DO NOTHING
+  `;
+
+  return Response.json({ seeded: true });
+}
