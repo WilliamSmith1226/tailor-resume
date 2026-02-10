@@ -206,7 +206,7 @@ function renderBodyContentTemplate4(
 }
 
 // PROFESSIONAL TEMPLATE - Two-column layout with sidebar
-export async function renderTemplate4(context: TemplateContext): Promise<Uint8Array> {
+export async function renderTemplate2(context: TemplateContext): Promise<Uint8Array> {
   const { pdfDoc, page, font, fontBold, name, email, phone, location, body, PAGE_WIDTH, PAGE_HEIGHT } = context;
   const BLACK = COLORS.BLACK;
   const MEDIUM_GRAY = COLORS.MEDIUM_GRAY;
