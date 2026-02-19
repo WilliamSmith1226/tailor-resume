@@ -3,18 +3,19 @@ import { BaseResumeProfile } from '../baseResumes';
 export const profile: BaseResumeProfile = {
   name: "bran chembah",
   resumeText: `
-Senior Software Engineer
-Stephen Poserina
-stephenposerina753@gmail.com
+Senior Full Stack Engineer
+bran Kingsley chembah
+chebran92@gmail.com
 
-(512) 861-1468
-Philadelphia, PA
+(202) 967-6569
+Laurel, MD
+
 
 Summary:
-Senior Full Stack Engineer with 12+ years of experience architecting and delivering enterprise applications using Node.js, NestJS, Python (FastAPI, Django), and modern cloud-native microservices. Skilled in integrating AI/ML pipelines, building scalable distributed systems, and leading Agile teams to deliver high-performance, secure, and resilient platforms. Combines strong backend expertise with modern frontend development using React, Next.js, Angular, and Vue to create end-to-end digital experiences. Adept at DevOps automation, event-driven architectures, and observability practices that drive measurable business impact.
+Senior Full Stack Engineer with 10+ years of experience architecting and delivering enterprise applications using Node.js, NestJS, Python (FastAPI, Django), and modern cloud-native microservices. Skilled in integrating AI/ML pipelines, building scalable distributed systems, and leading Agile teams to deliver high-performance, secure, and resilient platforms. Combines strong backend expertise with modern frontend development using React, Next.js, Angular, and Vue to create end-to-end digital experiences. Adept at DevOps automation, event-driven architectures, and observability practices that drive measurable business impact.
 
 Experience:
-Senior Software Engineer at Thinaer: 02/2021 – 09/2025
+Senior Full Stack Engineer • Engineering Manager • Team Lead at  HRAcuity: 03/2023 – Present
 • Architected microservices using Node.js, NestJS, RabbitMQ, and gRPC, improving inter-service communication speed by 40% and increasing overall scalability.
 • Built AI-based anomaly detection pipelines using Python (FastAPI, scikit-learn, TensorFlow), reducing false-positive IoT alerts by 38%.
 • Migrated core systems to AWS ECS, Lambda, S3, and RDS using CloudFormation, increasing deployment speed by 55% and enabling full IaC automation.
@@ -24,7 +25,7 @@ Senior Software Engineer at Thinaer: 02/2021 – 09/2025
 • Designed observability systems using Prometheus and Grafana, improving uptime to 99.98% and enabling predictive alerting.
 • Operationalized ML models through REST and GraphQL APIs, ensuring seamless integration with internal apps and partner systems.
 
-Senior Software Engineer at Channel Logistics: 10/2015 – 02/2021
+Senior Frontend Developer at Quick Organics: 02/2021 – 02/2022
 • Developed distributed logistics platforms using Node.js, NestJS, and Python microservices capable of processing millions of events per day.
 • Implemented predictive analytics for route optimization using TensorFlow, Pandas, and NumPy, reducing delivery delays by 24%.
 • Modernized PHP and .NET systems into Dockerized Node.js microservices deployed via AWS ECS and Terraform.
@@ -34,7 +35,7 @@ Senior Software Engineer at Channel Logistics: 10/2015 – 02/2021
 • Built CI/CD pipelines using Jenkins and Docker with automated linting, testing, and versioned releases.
 • Mentored junior engineers in best practices for microservices, DevOps, and Agile methodologies.
 
-Software Engineer at Google: 09/2013 – 09/2015
+Software Engineer at TAK-PROGRESSIVE HEALTH SERVICES INC: 12/2017 – 01/2021
 • Built scalable backend services using Python (Django, Flask) and early Node.js, supporting millions of sessions across internal analytics tools.
 • Contributed to the migration of legacy Python/Java systems into containerized Node.js APIs, establishing early hybrid service patterns pre-Kubernetes.
 • Improved data processing pipelines using BigQuery, Dataflow, and Pub/Sub, reducing ETL times from hours to minutes.
@@ -43,6 +44,16 @@ Software Engineer at Google: 09/2013 – 09/2015
 • Automated 70% of manual data collection with Python scripts and Airflow DAGs.
 • Participated in architecture reviews, influencing long-term design decisions for data-intensive applications.
 • Improved code quality through refactoring, standardization, and cross-team API governance.
+
+Full Stack Freelancer at Upwork.com: 01/2015 – 11/2017
+• Built responsive applications using React, Redux-Saga, Next.js, ES6, HTML5, CSS3, SASS/Bootstrap
+• Created custom React Observables and components for advanced data manipulation and visualization.
+• Developed internal applications with Node.js, Express.js, MongoDB, and integrated them with React-based frontends.
+• Gained strong experience with .NET Framework (C#, ASP.NET, ADO.NET, MVC, WPF, WCF, Dynamics CRM) for enterprise clients.
+• Successfully managed projects end-to-end as a standalone engineer, pivoting quickly to meet evolving client needs.
+• Designed logos, web assets, and UI/UX flows, later translating them into production-ready code.
+•Maintained a strong track record of client satisfaction with repeat contracts and referrals.
+• Worked on designing single page application using Vue Js components such asRouter and Vuex core components.
 
 Technical Skills:
 • Backend: Node.js, NestJS, Express, Python (FastAPI, Django, Flask), C#, PHP, Go
@@ -56,7 +67,9 @@ Technical Skills:
 • Collaboration: Git, Agile/Scrum, CI/CD, code reviews, documentation, sprint planning
 
 Education:
-Bachelor’s in Computer Science | University of Pittsburgh | 2009 – 2013
+Bachelor's in Computer Science | Prince George's Community College | Expected 2026
+
+Associate's in Computer Science | Prince George's Community College | 2018 – 2019
     `,
   pdfTemplate: 4
 };
